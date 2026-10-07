@@ -1,0 +1,11 @@
+{
+  // Cloudflare Workers 静态站点配置（仅托管静态文件，不需要 Worker 脚本）
+  "name": "pomegranate-lmr-3d",
+  "compatibility_date": "2026-10-07",
+  "assets": {
+    "directory": "./public"
+  },
+  "observability": {
+    "enabled": true
+  }
+}

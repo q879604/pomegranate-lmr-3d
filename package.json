@@ -1,0 +1,13 @@
+{
+  "name": "pomegranate-lmr-3d",
+  "version": "1.0.0",
+  "private": true,
+  "description": "石榴人 3D · 梁梦冉 —— 纯静态可部署的 3D 石榴人互动展示站",
+  "scripts": {
+    "deploy": "npx wrangler deploy",
+    "dev": "npx wrangler dev",
+    "preview": "npx wrangler deploy --dry-run",
+    "build": "node tools/build-single.mjs",
+    "test": "node tools/verify.mjs && node tools/integration-test.mjs && node tools/single-file-test.mjs && node tools/plate-check.mjs"
+  }
+}
